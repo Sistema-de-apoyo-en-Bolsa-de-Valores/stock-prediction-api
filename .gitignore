@@ -1,0 +1,75 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Carpetas creadas por entornos virtuales
+env/
+venv/
+ENV/
+.VENV/
+.venv/
+env.bak/
+venv.bak/
+
+# Archivos de configuración del entorno
+*.env
+.env.*
+
+# Archivos de configuración de Jupyter Notebook
+.ipynb_checkpoints
+
+# Archivos de caché
+*.cache
+*.pyo
+
+# Bases de datos locales, cachés y otros archivos de datos
+*.sqlite3
+*.db
+*.db-journal
+
+# Archivos de metadatos de proyecto
+*.log
+*.pot
+*.pid
+*.seed
+*.pid.lock
+
+# Archivos de empaquetado y distribución
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Archivos de configuraciones y dependencias
+Pipfile.lock
+poetry.lock
+
+# Carpetas y archivos de compilación de C
+build/
+dist/
+*.o
+*.so
+
+# Archivos de pruebas de cobertura
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Archivos generados por editores de texto
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Archivos de configuración de IDEs y editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Otros archivos generados
+*.mypy_cache/
+*.dmypy.json
+.pytest_cache/
