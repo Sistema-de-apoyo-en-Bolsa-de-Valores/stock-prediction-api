@@ -7,6 +7,7 @@ from fastapi.responses import JSONResponse
 from datetime import date
 
 app = FastAPI(
+    swagger_ui_parameters={"syntaxHighlight": False},
     title="stock-prediction-api",
     description=(
         "Esta API permite predecir el precio de las acciones a partir de data histórica de la API de Yahoo Finance."
